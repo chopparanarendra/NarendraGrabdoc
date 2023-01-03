@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<bean id="app" class="com.example.doctor.demo_appointment2.Appointment">
+<property name="Patient_name" value="Narendra"></property>
+<property name="Patient_id" value="234"></property>
+<property name="Patient_Disease" value="Highfever"></property>
+<property name="Patient_Number" value="9876543210"></property>
+</bean>
+</beans>
