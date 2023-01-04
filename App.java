@@ -12,6 +12,8 @@ package com.example.doctor.demo_appointment2;
 	    	
 	          Appointment apm=(Appointment)factory.getBean("app");
 	        System.out.println(apm);
+		System.out.println("Appointment Complited");
+	
 	       
 	    }
 	
