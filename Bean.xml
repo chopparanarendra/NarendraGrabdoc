@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<bean id="scr" class="com.appointment.upcoming.screen.Screen">
+<property name="Patient_name" value="Lokesh"></property>
+<property name="Patient_id" value="256"></property>
+<property name="Patient_Disease" value="cheast pain"></property>
+<property name="Patient_Number" value="9876643210"></property>
+
+</bean>
+
+
+</beans>

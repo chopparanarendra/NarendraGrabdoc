@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.example doctor .demo_appointment 32' is invalid and this project uses 'com.example.doctor.demo_appointment2' instead.
+* The original package name 'com.appointment .upcoming screen' is invalid and this project uses 'com.appointment.upcoming.screen' instead.
 
 # Getting Started
 

@@ -1,21 +1,16 @@
-package com.example.doctor.demo_appointment2;
+package com.appointment.upcoming.screen;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-
-	import org.springframework.context.ApplicationContext;
-	import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-	public class App 
-	{
-	    public static void main( String[] args )
-	    {
-	    	ApplicationContext factory= new ClassPathXmlApplicationContext("NewBean.xml");
-	    	
-	          Appointment apm=(Appointment)factory.getBean("app");
-	        System.out.println(apm);
-		System.out.println("Appointment Complited");
-	
-	       
-	    }
-	
+public class App {
+	public static void main( String[] args )
+    {
+    	ApplicationContext factory= new ClassPathXmlApplicationContext("Bean.xml");
+    	
+          Screen sccr=(Screen)factory.getBean("scr");
+        System.out.println(sccr);
+        System.out.println("upcoming Appointment");
+       
+    }
 
 }
