@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'com.appointment .upcoming screen' is invalid and this project uses 'com.appointment.upcoming.screen' instead.
+* The original package name 'com.appointment .cancellation screen' is invalid and this project uses 'com.appointment.cancellation.screen' instead.
 
 # Getting Started
 
